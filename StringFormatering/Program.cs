@@ -10,6 +10,10 @@ namespace StringFormatering
     {
         static void Main(string[] args)
         {
+
+            //Övn 1
+            DateTime dt = new DateTime(2016, 10, 7);
+            Console.WriteLine(dt.ToString("d"));
         }
     }
 }
