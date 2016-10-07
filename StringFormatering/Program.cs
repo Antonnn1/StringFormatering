@@ -16,9 +16,15 @@ namespace StringFormatering
             Console.WriteLine(dt.ToString("d"));
             */
 
+            /*
             //Övn 2
             double area = Math.PI * 4 * 4;
             Console.WriteLine(area.ToString("F4"));
+            */
+
+            //Övn 3
+            int tal = 1000000000;
+            Console.WriteLine("{0:0,0}", tal);
 
 
         }
