@@ -22,9 +22,15 @@ namespace StringFormatering
             Console.WriteLine(area.ToString("F4"));
             */
 
+            /*
             //Övn 3
             int tal = 1000000000;
             Console.WriteLine("{0:0,0}", tal);
+            */
+
+            //Övn 4
+            double value = 123.00;
+            Console.WriteLine("Det blir {0} kr och {1:00} öre", value, 00);
 
 
         }
