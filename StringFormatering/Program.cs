@@ -28,11 +28,17 @@ namespace StringFormatering
             Console.WriteLine("{0:0,0}", tal);
             */
 
+            /*
             //Övn 4
             double value = 123.00;
             Console.WriteLine("Det blir {0} kr och {1:00} öre", value, 00);
+            */
 
-
+            //Övn 5
+            Console.WriteLine("Mata in ditt person nummer: ");
+            string pn = Console.ReadLine();
+            decimal pndelat = decimal.Parse(pn);
+            Console.WriteLine("{0:#### ## ##-####}", pndelat);
         }
     }
 }
